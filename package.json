@@ -1,0 +1,34 @@
+{
+  "name": "secforge-mcp",
+  "version": "1.0.0",
+  "description": "SecForge - Autonomous Application Security, Threat Modeling, OWASP Hardening, Secrets Management & Incident Response Engine MCP. Threat-models your product, hardens OWASP Top 10 with vulnerable-vs-fixed code pairs (IDOR, injection, SSRF, auth failures), locks down secrets and supply chain (OIDC CI, lockfile discipline, leaked-secret runbooks), configures strict nonce-based CSP and security headers, and prepares SOC 2 / pentests / incident response.",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "security",
+    "appsec",
+    "owasp",
+    "threat-modeling",
+    "csp",
+    "security-headers",
+    "secrets-management",
+    "supply-chain-security",
+    "idor",
+    "xss",
+    "ssrf",
+    "incident-response",
+    "soc2",
+    "pentest",
+    "bug-bounty",
+    "devsecops",
+    "cursor",
+    "claude"
+  ],
+  "homepage": "https://mcp-hub.agentweb-hub.workers.dev/mcp/secforge",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AmyGraphics/secforge-mcp"
+  },
+  "author": "AmyGraphics",
+  "license": "MIT"
+}
