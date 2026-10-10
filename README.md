@@ -20,11 +20,11 @@ Streamable HTTP MCP — works with Cursor, Claude Code, Claude Desktop, Windsurf
 
 | Tool | What it does |
 |------|-------------|
-| `autonomous_security_architect` | Full security blueprint in one call: lightweight threat model (assets, attackers, surfaces, abuse cases), trust-boundary architecture by stack, OWASP-prioritized risk map tuned to data sensitivity, quick wins this week, maturity-based roadmap |
-| `harden_owasp_vulnerabilities` | OWASP Top 10 with vulnerable-vs-fixed code pairs: IDOR & broken access control, injection & XSS escape hatches, SSRF guards with redirect re-validation, auth/session failures (argon2id, refresh rotation with reuse detection), misconfiguration CI gates — plus the AI-codegen warning list |
-| `implement_secrets_supply_chain` | Secrets architecture per environment, the leaked-secret emergency runbook (rotate-first discipline), supply chain defenses (lockfiles, install-script caution, typosquat/slopsquat hygiene, update cooldowns), hardened CI config with OIDC + SHA-pinned actions |
-| `configure_security_headers_csp` | Copy-paste security header sets, strict nonce-based CSP with `strict-dynamic`, report-only rollout strategy, cookie hardening (`__Host-` prefix, SameSite), CORS done correctly, staged zero-breakage deployment plan |
-| `prepare_incident_response_audit` | SOC 2 Type II prep, pentest preparation that halves the bill, active-incident triage with roles and legal clocks, bug bounty launch sequencing, logging/detection baseline, responsible disclosure policy |
+| `sec.architect` | Full security blueprint in one call: lightweight threat model (assets, attackers, surfaces, abuse cases), trust-boundary architecture by stack, OWASP-prioritized risk map tuned to data sensitivity, quick wins this week, maturity-based roadmap |
+| `sec.harden_owasp` | OWASP Top 10 with vulnerable-vs-fixed code pairs: IDOR & broken access control, injection & XSS escape hatches, SSRF guards with redirect re-validation, auth/session failures (argon2id, refresh rotation with reuse detection), misconfiguration CI gates — plus the AI-codegen warning list |
+| `sec.secrets_supply_chain` | Secrets architecture per environment, the leaked-secret emergency runbook (rotate-first discipline), supply chain defenses (lockfiles, install-script caution, typosquat/slopsquat hygiene, update cooldowns), hardened CI config with OIDC + SHA-pinned actions |
+| `sec.headers_csp` | Copy-paste security header sets, strict nonce-based CSP with `strict-dynamic`, report-only rollout strategy, cookie hardening (`__Host-` prefix, SameSite), CORS done correctly, staged zero-breakage deployment plan |
+| `sec.incident_response` | SOC 2 Type II prep, pentest preparation that halves the bill, active-incident triage with roles and legal clocks, bug bounty launch sequencing, logging/detection baseline, responsible disclosure policy |
 
 ## ⚡ Quick Start (Cursor / Claude Code)
 
@@ -40,7 +40,7 @@ Streamable HTTP MCP — works with Cursor, Claude Code, Claude Desktop, Windsurf
 
 ## 🔴 NEW in v1.1 — Live Security Headers Audit
 
-`audit_security_headers_live` fetches **your real HTTP response in real time** and grades the actual security posture: HSTS, CSP, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy, cookie flags, CORS exposure and info-leak headers — with a letter grade and prioritized hardening list computed from what your server actually sends.
+`sec.audit_headers_live` fetches **your real HTTP response in real time** and grades the actual security posture: HSTS, CSP, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy, cookie flags, CORS exposure and info-leak headers — with a letter grade and prioritized hardening list computed from what your server actually sends.
 
 ## 💰 Pricing
 
