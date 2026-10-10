@@ -38,6 +38,10 @@ Streamable HTTP MCP — works with Cursor, Claude Code, Claude Desktop, Windsurf
 }
 ```
 
+## 🔴 NEW in v1.1 — Live Security Headers Audit
+
+`audit_security_headers_live` fetches **your real HTTP response in real time** and grades the actual security posture: HSTS, CSP, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy, cookie flags, CORS exposure and info-leak headers — with a letter grade and prioritized hardening list computed from what your server actually sends.
+
 ## 💰 Pricing
 
 **Start free — 10 requests/day, no signup, no card.** Upgrade only if it earns a place in your workflow.
